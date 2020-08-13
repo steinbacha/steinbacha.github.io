@@ -39,7 +39,7 @@ template {
   display: none;
 }
 a {
-  background-color: white;
+  background-color: transparent;
 }
 a:active,
 a:hover {
@@ -7468,7 +7468,7 @@ section.hero-wrap a.live-cta {
   }
 }
 section.hero-wrap a.live-cta:hover {
-  color: #000000;
+  color: #white;
   text-decoration: none;
 }
 section.hero-wrap .countdown {

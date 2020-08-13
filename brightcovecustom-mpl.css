@@ -8943,7 +8943,7 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
   margin-bottom: 10px;
   padding-left: 20px;
   font-size: 20px;
-  color: #ffffff;
+  color: #black;
 }
 @media (max-width: 767px) {
   .video-wrap .video-wrap-title {
@@ -8986,14 +8986,14 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
   font-weight: 600;
   margin-top: 5px;
   font-size: 18px;
-  color: #ffffff;
+  color: #black;
 }
 .video-wrap .video-grid-item .video-description {
   font-family: Arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #black;
   white-space: pre-wrap;
   display: -webkit-box;
   -webkit-line-clamp: 6;
@@ -9051,7 +9051,7 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
 }
 .video-wrap .see-more-cta-container .see-more-cta:hover {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .video-wrap .see-more-cta-container {

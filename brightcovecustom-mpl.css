@@ -9047,11 +9047,11 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
   display: inline-block;
   margin-top: 5px;
   font-size: 18px;
-  color: #0000;
+  color: #000000;
 }
 .video-wrap .see-more-cta-container .see-more-cta:hover {
   text-decoration: none;
-  color: #0000;
+  color: #000000;
 }
 @media (max-width: 767px) {
   .video-wrap .see-more-cta-container {

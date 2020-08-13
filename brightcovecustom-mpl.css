@@ -9051,7 +9051,7 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
 }
 .video-wrap .see-more-cta-container .see-more-cta:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #black;
 }
 @media (max-width: 767px) {
   .video-wrap .see-more-cta-container {

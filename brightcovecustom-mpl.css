@@ -9047,7 +9047,7 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
   display: inline-block;
   margin-top: 5px;
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
 }
 .video-wrap .see-more-cta-container .see-more-cta:hover {
   text-decoration: none;

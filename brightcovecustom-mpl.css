@@ -7580,8 +7580,8 @@ section.remindme-wrap .remindme-label {
   font-weight: 600;
   padding: 10px;
   font-size: 20px;
-  color: #050000;
-  background-color: #050000;
+  color: #FFFFFF;
+  background-color: #939598;
 }
 @media (min-width: 768px) {
   section.remindme-wrap .remindme-label {

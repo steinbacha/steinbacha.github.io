@@ -7571,7 +7571,7 @@ section.remindme-wrap .remindme-inner {
     padding: 0px 20px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    background-color: #939598;
+    background-color: #D92231;
   }
 }
 section.remindme-wrap .remindme-label {
@@ -9487,7 +9487,7 @@ section.hero-wrap.post-event {
   background-color: #ffffff;
 }
 footer.main-footer {
-  background-color: #040000;
+  background-color: #D92231;
   padding: 30px 25px;
   margin-top: 20px;
 }

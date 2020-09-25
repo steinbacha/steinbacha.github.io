@@ -7580,7 +7580,7 @@ section.remindme-wrap .remindme-label {
   font-weight: 600;
   padding: 10px;
   font-size: 20px;
-  color: #32a852;
+  color: #FFFFFF;
   background-color: #939598;
 }
 @media (min-width: 768px) {
@@ -8224,7 +8224,7 @@ section.secondaryhero-wrap.during-event .secondaryhero-inner .inner-right a.watc
   font-family: Arial;
   font-style: normal;
   font-weight: 400;
-  color: #00000;
+  color: #ffffff;
 }
 @media (max-width: 600px) {
   .video-detail .video-info-box .video-creation-and-views {
@@ -9047,7 +9047,7 @@ section.categories-list .categories-list-inner > ul.categories > li > .dropdown-
   display: inline-block;
   margin-top: 5px;
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
 }
 .video-wrap .see-more-cta-container .see-more-cta:hover {
   text-decoration: none;

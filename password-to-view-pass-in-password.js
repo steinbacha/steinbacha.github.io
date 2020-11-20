@@ -20,7 +20,7 @@ videojs.getPlayer("myPlayerID").ready(function() {
 
     // If there is no password, play video
     if (passwordToMatch === undefined) {
-      myPlayer.stop();
+      myPlayer.pause();
       // If there is a password, build content and display ModalDialog
     } else {
       //Create a div in which to place HTML content

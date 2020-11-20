@@ -20,7 +20,7 @@ videojs.registerPlugin('passwordToView', function(pluginOptions) {
   newElement.setAttribute("style", "display:flex;justify-content:center;align-items:center;");
 
   // Create content for ModalDialog
-  newElement.innerHTML = '<div><img class="bcls-image" src="//mindpoollive.com/wp-content/uploads/2020/11/Artboard-1@3x.png"><br><input class="theForm" type="password" id="passwordInputID"><br><input id="formButtonID" class="theForm" type="submit" value="Sign In"></div>';
+  newElement.innerHTML = '<div><img class="bcls-image" src="https://mindpoollive.com/wp-content/uploads/2020/11/lock-fullscreen.png"><br><input class="theForm" type="password" id="passwordInputID"><br><input id="formButtonID" class="theForm" type="submit" value="Sign In"></div>';
 
   // Be sure user cannot close ModalDialog, set content
   modalOptions.uncloseable = true;

@@ -18,9 +18,9 @@ videojs.getPlayer("myPlayerID").ready(function() {
   myPlayer.one("loadstart", function() {
     passwordToMatch = myPlayer.mediainfo.customFields["password"];
 
-    // If there is no password, blur video
+    // If there is no password, play video
     if (passwordToMatch === undefined) {
-      myPlayer.blur();
+
       // If there is a password, build content and display ModalDialog
     } else {
       //Create a div in which to place HTML content

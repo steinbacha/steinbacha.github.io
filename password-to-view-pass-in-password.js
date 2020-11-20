@@ -12,7 +12,6 @@ videojs.getPlayer("myPlayerID").ready(function() {
     ModalDialog = videojs.getComponent("ModalDialog");
   myPlayer = this;
   myPlayer.muted(true);
-  myPlayer.pause(true);
 
   // +++ Display ModalDialog if password in video's custom field +++
   // Wait for loadstart so password can be read from custom field
@@ -21,7 +20,7 @@ videojs.getPlayer("myPlayerID").ready(function() {
 
     // If there is no password, play video
     if (passwordToMatch === undefined) {
-      myPlayer.play();
+  myPlayer.pause(true);
       // If there is a password, build content and display ModalDialog
     } else {
       //Create a div in which to place HTML content

@@ -9,8 +9,9 @@ videojs.registerPlugin('passwordToView', function(pluginOptions) {
     newElement = document.createElement('div'),
     // Get a ModalDialog object
     ModalDialog = videojs.getComponent('ModalDialog');
-
+  myPlayer = this;
   myPlayer.muted(true);
+  myPlayer.paused(true);
 
   // +++ Display ModalDialog +++
   // Read password from options

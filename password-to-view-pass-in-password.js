@@ -26,7 +26,7 @@ videojs.getPlayer("myPlayerID").ready(function() {
       //Create a div in which to place HTML content
       newElement.setAttribute(
         "style",
-        "display:flex;justify-content:center;align-items:center;background-color: #000000; height: 1920px;"
+        "display:flex;justify-content:center;align-items:center;background-color: #000000; height: 100%;"
       );
 
       // Create content for ModalDialog

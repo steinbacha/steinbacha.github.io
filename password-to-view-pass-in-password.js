@@ -50,7 +50,7 @@ videojs.registerPlugin('passwordToView', function(pluginOptions) {
     // If passwords match close ModalDialog and play video
     if (userInputPassword == passwordToMatch) {
       myModal.close();
-      myPlayer.play();
+      myPlayer.pause();
       // If passwords do not match display dialog indicating so
     } else {
       window.alert('Sorry, password is incorrect. Try again.')

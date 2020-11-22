@@ -17,7 +17,7 @@ videojs.registerPlugin('passwordToView', function(pluginOptions) {
   passwordToMatch = pluginOptions.password;
 
   //Create a div in which to place HTML content
-  newElement.setAttribute("style", "display:flex;justify-content:center;align-items:center;background-color:#000000;position:fixed;height100%;");
+  newElement.setAttribute("style", "display:flex;justify-content:center;align-items:center;background-color:#000000;height100%;");
 
   // Create content for ModalDialog
   newElement.innerHTML = '<div><img class="bcls-image" src="//learning-services-media.brightcove.com/doc-assets/player-development/samples/password/lock-icon.png"><br><input class="theForm" type="password" id="passwordInputID"><br><input id="formButtonID" class="theForm" type="submit" value="Sign In"></div>';
